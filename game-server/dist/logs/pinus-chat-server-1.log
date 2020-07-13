@@ -1,0 +1,541 @@
+[2020-06-11T11:19:22.232] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T11:19:22.238] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T11:19:22.238] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T11:19:23.344] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive replaceServer signal: {"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11528},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11548},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":11564},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}
+[2020-06-11T11:19:23.368] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive replaceServer signal: {"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11528},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11548},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":11564},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}
+[2020-06-11T11:25:00.813] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T11:25:00.814] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"11"}, groups: {}, opts: undefined
+[2020-06-11T11:26:14.345] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"11"}, groups: {}, opts: undefined
+[2020-06-11T11:32:40.139] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T11:33:13.134] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T11:33:15.797] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":""}, groups: {}, opts: undefined
+[2020-06-11T11:33:31.485] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":""}, groups: {}, opts: undefined
+[2020-06-11T11:33:37.419] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:18:47.950] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:18:52.752] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:19:04.052] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:19:07.633] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:20:21.908] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:20:25.778] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:21:25.402] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:28:26.701] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T12:28:26.707] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T12:28:26.708] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T12:28:27.802] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive replaceServer signal: {"action":"replaceServer","servers":{"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":12248},"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":7908},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":12188},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}
+[2020-06-11T12:28:27.820] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive replaceServer signal: {"action":"replaceServer","servers":{"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":12248},"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":7908},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":12188},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}
+[2020-06-11T12:28:40.282] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T12:28:40.283] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:28:55.546] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-1":["1*1"]}, opts: undefined
+[2020-06-11T12:29:00.456] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-1":["1*1"]}, opts: undefined
+[2020-06-11T12:29:16.186] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:30:40.227] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:30:52.179] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-1":["1*1"]}, opts: undefined
+[2020-06-11T12:32:30.879] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T12:32:30.886] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T12:32:30.887] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T12:32:31.982] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive replaceServer signal: {"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11636},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":6276},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":9184},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}
+[2020-06-11T12:32:31.990] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive replaceServer signal: {"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11636},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":6276},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":9184},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}
+[2020-06-11T12:32:40.831] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T12:32:40.832] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:32:48.453] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"3"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T12:34:33.618] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T12:34:33.623] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T12:34:33.623] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T12:34:34.758] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive replaceServer signal: {"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11788},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11888},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":11628},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}
+[2020-06-11T12:34:34.769] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive replaceServer signal: {"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11788},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11888},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":11628},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}
+[2020-06-11T12:34:48.570] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T12:34:48.572] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:34:54.396] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T12:37:50.709] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:39:25.403] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T12:39:25.413] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T12:39:25.413] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T12:39:25.500] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T12:39:25.500] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T12:39:25.501] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 92 ms
+[2020-06-11T12:39:25.508] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":12152}}
+[2020-06-11T12:40:14.751] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T12:40:14.752] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T12:40:23.453] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T13:29:35.975] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T13:29:35.976] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T13:49:41.829] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T13:49:48.499] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T13:50:59.541] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T13:50:59.582] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T13:55:10.090] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T13:55:30.598] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:04:50.670] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:04:57.464] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:05:08.093] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:05:17.021] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:05:18.561] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:05:21.404] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:05:50.955] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:05:51.013] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:05:55.484] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:05:59.059] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:08:17.537] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:08:17.558] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:08:21.607] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:08:24.644] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:10:17.072] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:10:20.394] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"3"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:11:28.520] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"3"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:11:28.563] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:11:35.247] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:11:38.231] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:12:04.045] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:12:04.108] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:12:08.081] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:12:10.749] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:12:23.084] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:12:23.163] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:12:26.525] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:12:29.246] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:13:25.490] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:13:25.491] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:13:29.450] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:13:32.067] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:14:01.739] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:14:01.740] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:14:07.964] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:14:10.313] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:15:14.041] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:15:14.086] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:15:18.140] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:15:21.774] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:15:44.962] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:15:44.973] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:15:47.652] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:15:50.153] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:17:21.795] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:17:21.805] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:17:24.478] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:17:27.624] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:19:02.088] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:19:02.114] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:19:06.504] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:19:10.011] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:19:39.438] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:19:39.495] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:19:43.391] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:19:46.260] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:20:04.443] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:20:04.488] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:20:07.174] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:20:10.267] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:20:27.791] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:20:27.864] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:20:31.389] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:20:33.916] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:21:08.635] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:21:08.692] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:21:12.358] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:21:14.798] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:22:02.650] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T14:22:02.757] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T14:22:06.557] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:22:08.999] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:22:28.040] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:22:28.096] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:22:32.400] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:22:34.897] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:22:39.576] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:22:40.231] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:22:51.668] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"李相丽"}, groups: {}, opts: undefined
+[2020-06-11T14:22:53.871] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"王伟"}, groups: {"connector-server-2":["李相丽*1"]}, opts: undefined
+[2020-06-11T14:38:40.855] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"王伟"}, groups: {"connector-server-2":["李相丽*1"]}, opts: undefined
+[2020-06-11T14:38:40.868] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"李相丽"}, groups: {}, opts: undefined
+[2020-06-11T14:39:41.937] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:39:44.989] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:47:34.239] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:47:34.239] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:48:04.231] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:48:07.016] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:48:33.266] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:48:33.309] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:48:36.119] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:48:39.332] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:50:35.470] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T14:50:35.521] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:50:39.043] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:51:18.431] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:51:22.653] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:52:08.641] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:52:11.971] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T14:52:13.837] [WARN] pinus - [chat-server-1 handlerService.js] could not find handler for routeRecord: {"route":"chat.entryHandler.send","serverType":"chat","handler":"entryHandler","method":"send"}
+[2020-06-11T14:52:13.897] [ERROR] pinus - [chat-server-1 handlerService.js] [handleManager]: fail to find handler for "chat.entryHandler.send"Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:76:20)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)
+[2020-06-11T14:52:13.928] [ERROR] pinus - [chat-server-1 server.js] chat-server-1 no default error handler msg[{"content":"123","rid":"1"}] to resolve unknown exception: sessionId:{"id":55,"frontendId":"connector-server-2","uid":"1*1","settings":{"rid":"1"}} , error stack: Error: fail to find handler for chat.entryHandler.send
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:77:38)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)
+    at MQTTAcceptor.processMsg (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\acceptors\mqtt-acceptor.ts:162:14)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at handleError (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:380:16)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:474:17
+    at Object.invokeCallback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\util\utils.ts:25:20)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:77:19)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+[2020-06-11T15:09:31.961] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:09:35.666] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:09:48.420] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:09:53.225] [WARN] pinus - [chat-server-1 handlerService.js] could not find handler for routeRecord: {"route":"chat.entryHandler.send","serverType":"chat","handler":"entryHandler","method":"send"}
+[2020-06-11T15:09:53.226] [ERROR] pinus - [chat-server-1 handlerService.js] [handleManager]: fail to find handler for "chat.entryHandler.send"Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:76:20)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)
+[2020-06-11T15:09:53.228] [ERROR] pinus - [chat-server-1 server.js] chat-server-1 no default error handler msg[{"content":"123","rid":"1"}] to resolve unknown exception: sessionId:{"id":56,"frontendId":"connector-server-2","uid":"1*1","settings":{"rid":"1"}} , error stack: Error: fail to find handler for chat.entryHandler.send
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:77:38)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)
+    at MQTTAcceptor.processMsg (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\acceptors\mqtt-acceptor.ts:162:14)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at handleError (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:380:16)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:474:17
+    at Object.invokeCallback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\util\utils.ts:25:20)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:77:19)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+[2020-06-11T15:12:13.554] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T15:12:13.583] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T15:13:42.886] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T15:13:42.891] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T15:13:42.891] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T15:13:42.987] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T15:13:42.988] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T15:13:42.988] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 100 ms
+[2020-06-11T15:13:42.990] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":7500}}
+[2020-06-11T15:13:43.019] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":5328}}
+[2020-06-11T15:13:58.864] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T15:13:58.865] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:14:01.810] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-1":["1*1"]}, opts: undefined
+[2020-06-11T15:14:05.564] [WARN] pinus - [chat-server-1 handlerService.js] could not find handler for routeRecord: {"route":"chat.entryHandler.send","serverType":"chat","handler":"entryHandler","method":"send"}
+[2020-06-11T15:14:05.605] [ERROR] pinus - [chat-server-1 handlerService.js] [handleManager]: fail to find handler for "chat.entryHandler.send"Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:76:20)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)
+[2020-06-11T15:14:05.613] [ERROR] pinus - [chat-server-1 server.js] chat-server-1 no default error handler msg[{"content":"1123","rid":"1"}] to resolve unknown exception: sessionId:{"id":1,"frontendId":"connector-server-1","uid":"1*1","settings":{"rid":"1"}} , error stack: Error: fail to find handler for chat.entryHandler.send
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:77:38)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)
+    at MQTTAcceptor.processMsg (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\acceptors\mqtt-acceptor.ts:162:14)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at handleError (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:380:16)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:474:17
+    at Object.invokeCallback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\util\utils.ts:25:20)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:77:19)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+[2020-06-11T15:15:36.492] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-1":["2*1"]}, opts: undefined
+[2020-06-11T15:15:36.555] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T15:15:43.628] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:15:46.464] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-1":["1*1"]}, opts: undefined
+[2020-06-11T15:15:50.147] [ERROR] pinus - [chat-server-1 server.js] chat-server-1 no default error handler msg[{"content":"123","rid":"1"}] to resolve unknown exception: sessionId:{"id":3,"frontendId":"connector-server-1","uid":"1*1","settings":{"rid":"1"}} , error stack: TypeError: Cannot read property 'sid' of undefined
+    at ChatHandler.send (D:\cocos_pro\AFK_study\game-server\app\servers\chat\handler\chatHandler.ts:28:47)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:101:28)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at handleError (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:380:16)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:474:17
+    at Object.invokeCallback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\util\utils.ts:33:20)
+    at callback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:95:19)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:104:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-06-11T15:17:47.619] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-1":["2*1"]}, opts: undefined
+[2020-06-11T15:17:47.673] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T15:17:51.783] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:17:54.380] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-1":["1*1"]}, opts: undefined
+[2020-06-11T15:18:27.906] [ERROR] pinus - [chat-server-1 server.js] chat-server-1 no default error handler msg[{"content":{"content":"123123","target":"*"},"rid":"1"}] to resolve unknown exception: sessionId:{"id":6,"frontendId":"connector-server-1","uid":"2*1","settings":{"rid":"1"}} , error stack: TypeError: Cannot read property 'sid' of undefined
+    at ChatHandler.send (D:\cocos_pro\AFK_study\game-server\app\servers\chat\handler\chatHandler.ts:28:47)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:101:28)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at handleError (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:380:16)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:474:17
+    at Object.invokeCallback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\util\utils.ts:33:20)
+    at callback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:95:19)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:104:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-06-11T15:19:35.897] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T15:19:35.901] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T15:19:35.902] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T15:19:36.016] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T15:19:36.017] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T15:19:36.017] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 118 ms
+[2020-06-11T15:19:36.020] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":4140}}
+[2020-06-11T15:20:02.914] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T15:20:02.915] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:20:08.389] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:20:11.345] [ERROR] pinus - [chat-server-1 server.js] chat-server-1 no default error handler msg[{"content":{"content":"123","target":"*"},"rid":"1"}] to resolve unknown exception: sessionId:{"id":2,"frontendId":"connector-server-2","uid":"2*1","settings":{"rid":"1"}} , error stack: TypeError: Cannot read property 'sid' of undefined
+    at ChatHandler.send (D:\cocos_pro\AFK_study\game-server\app\servers\chat\handler\chatHandler.ts:28:47)
+    at HandlerService.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:101:28)
+    at handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:471:29)
+    at next (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:340:12)
+    at doHandle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:484:5)
+    at Server.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:169:9)
+    at ServerComponent.handle (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\components\server.ts:62:21)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:55:20
+    at Promise.cancellationExecute [as _execute] (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\debuggability.js:406:9)
+    at Promise._resolveFromExecutor (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (D:\cocos_pro\AFK_study\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+    at MsgRemote.forwardMessage (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\remote\backend\msgRemote.ts:32:16)
+    at Dispatcher.route (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\dispatcher.ts:67:30)
+    at MQTTAcceptor.cb (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-rpc\lib\rpc-server\gateway.ts:48:24)Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at handleError (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:380:16)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\server\server.ts:474:17
+    at Object.invokeCallback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\util\utils.ts:33:20)
+    at callback (D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:95:19)
+    at D:\cocos_pro\AFK_study\game-server\node_modules\pinus\lib\common\service\handlerService.ts:104:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-06-11T15:22:01.830] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T15:22:01.837] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T15:22:01.837] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T15:22:01.911] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T15:22:01.913] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T15:22:01.914] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 80 ms
+[2020-06-11T15:22:01.926] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":9388}}
+[2020-06-11T15:22:18.872] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T15:22:18.873] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:22:21.608] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:22:32.482] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":{"content":"13131是的","target":"*"},"from":"1"}, groups: {"connector-server-2":["1*1","2*1"]}, opts: undefined
+[2020-06-11T15:24:09.439] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T15:24:09.445] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T15:24:09.446] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T15:24:09.507] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T15:24:09.509] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T15:24:09.509] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 67 ms
+[2020-06-11T15:24:09.529] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":8404}}
+[2020-06-11T15:24:19.570] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T15:24:19.570] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:24:22.568] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:26:51.266] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T15:26:51.274] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T15:26:51.274] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T15:26:51.354] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T15:26:51.355] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T15:26:51.355] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 85 ms
+[2020-06-11T15:26:51.356] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":780}}
+[2020-06-11T15:27:01.089] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T15:27:01.090] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:27:04.060] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:28:17.717] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T15:28:17.723] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T15:28:17.724] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T15:28:17.831] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T15:28:17.832] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T15:28:17.833] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 113 ms
+[2020-06-11T15:28:17.836] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":3720}}
+[2020-06-11T15:28:17.842] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":9732}}
+[2020-06-11T15:28:26.382] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T15:28:26.383] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:28:29.228] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:28:32.229] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:30:19.358] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["2*1"]}, opts: undefined
+[2020-06-11T15:30:19.380] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {}, opts: undefined
+[2020-06-11T15:30:23.931] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:30:27.438] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"3"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:30:32.832] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:30:32.832] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"123","from":"1","target":"*"}, groups: {"connector-server-2":["1*1","3*1"]}, opts: undefined
+[2020-06-11T15:31:38.408] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["3*1"]}, opts: undefined
+[2020-06-11T15:31:38.471] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"3"}, groups: {}, opts: undefined
+[2020-06-11T15:31:44.149] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:31:46.757] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:31:51.219] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"2"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:32:04.205] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"lion"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:32:15.637] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:32:15.637] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"欢迎新朋友加入啊","from":"1","target":"*"}, groups: {"connector-server-2":["1*1","lion*1"]}, opts: undefined
+[2020-06-11T15:32:39.758] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:32:39.759] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"我来自中国","from":"lion","target":"*"}, groups: {"connector-server-2":["1*1","lion*1"]}, opts: undefined
+[2020-06-11T15:33:50.658] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"lion"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:33:50.764] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:34:39.958] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"123"}, groups: {}, opts: undefined
+[2020-06-11T15:34:43.007] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {"connector-server-2":["123*1"]}, opts: undefined
+[2020-06-11T15:34:45.745] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"3"}, groups: {"connector-server-2":["123*1","1*1"]}, opts: undefined
+[2020-06-11T15:35:08.915] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {"connector-server-2":["123*1","3*1"]}, opts: undefined
+[2020-06-11T15:35:08.988] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"123"}, groups: {"connector-server-2":["3*1"]}, opts: undefined
+[2020-06-11T15:35:08.990] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"3"}, groups: {}, opts: undefined
+[2020-06-11T15:37:28.425] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:38:03.394] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:38:08.192] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"123"}, groups: {}, opts: undefined
+[2020-06-11T15:42:11.865] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"123"}, groups: {}, opts: undefined
+[2020-06-11T15:43:02.392] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:43:29.851] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:44:01.669] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:44:13.772] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:44:13.772] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"123","from":"1","target":"*"}, groups: {"connector-server-2":["1*1"]}, opts: undefined
+[2020-06-11T15:46:45.326] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-11T15:46:49.093] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"123"}, groups: {}, opts: undefined
+[2020-06-11T15:46:54.420] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:46:54.421] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"123","from":"123","target":"*"}, groups: {"connector-server-2":["123*1"]}, opts: undefined
+[2020-06-11T15:47:23.249] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"123"}, groups: {}, opts: undefined
+[2020-06-11T15:47:26.757] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"123"}, groups: {}, opts: undefined
+[2020-06-11T15:47:31.858] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:47:31.859] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"123123","from":"123","target":"*"}, groups: {"connector-server-2":["123*1"]}, opts: undefined
+[2020-06-11T15:48:31.409] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"123"}, groups: {}, opts: undefined
+[2020-06-11T15:48:34.691] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"123"}, groups: {}, opts: undefined
+[2020-06-11T15:48:40.545] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"345"}, groups: {"connector-server-2":["123*1"]}, opts: undefined
+[2020-06-11T15:48:54.634] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:48:54.634] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"123","from":"123","target":"*"}, groups: {"connector-server-2":["123*1","345*1"]}, opts: undefined
+[2020-06-11T15:48:58.409] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T15:48:58.410] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"阿道夫","from":"345","target":"*"}, groups: {"connector-server-2":["123*1","345*1"]}, opts: undefined
+[2020-06-11T16:10:09.647] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T16:10:09.653] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T16:10:09.654] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T16:10:09.749] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T16:10:09.750] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T16:10:09.750] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 100 ms
+[2020-06-11T16:10:09.751] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11292}}
+[2020-06-11T16:10:09.770] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive removeServer signal: {"action":"removeServer","id":"connector-server-1"}
+[2020-06-11T16:10:09.772] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] chat-server-1 receive removeServer signal: {"action":"removeServer","id":"connector-server-2"}
+[2020-06-11T16:12:13.911] [INFO] pinus - [chat-server-1 application.js] application inited: "chat-server-1"
+[2020-06-11T16:12:13.918] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter before start...
+[2020-06-11T16:12:13.919] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter start...
+[2020-06-11T16:12:14.029] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" enter after start...
+[2020-06-11T16:12:14.030] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" finish start
+[2020-06-11T16:12:14.030] [INFO] pinus - [chat-server-1 application.js] "chat-server-1" startup in 116 ms
+[2020-06-11T16:12:14.031] [DEBUG] pinus - [chat-server-1 monitorwatcher.js] [chat-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":2852}}
+[2020-06-11T16:12:25.445] [INFO] logger - [chat-server-1 console] connected
+[2020-06-11T16:12:25.447] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"12123"}, groups: {}, opts: undefined
+[2020-06-11T16:12:32.413] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T16:12:32.414] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"阿斯顿撒的","from":"12123","target":"*"}, groups: {"connector-server-1":["12123*1"]}, opts: undefined
+[2020-06-11T16:12:41.172] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onAdd, msg: {"user":"阿萨德"}, groups: {"connector-server-1":["12123*1"]}, opts: undefined
+[2020-06-11T16:12:51.010] [INFO] logger - [chat-server-1 console] [object Object]
+[2020-06-11T16:12:51.011] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onChat, msg: {"msg":"nihao ","from":"12123","target":"*"}, groups: {"connector-server-1":["12123*1","阿萨德*1"]}, opts: undefined
+[2020-06-11T16:13:29.073] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"阿萨德"}, groups: {"connector-server-1":["12123*1"]}, opts: undefined
+[2020-06-11T16:13:30.044] [DEBUG] pinus - [chat-server-1 channelService.js] [chat-server-1] channelService sendMessageByGroup route: onLeave, msg: {"user":"12123"}, groups: {}, opts: undefined

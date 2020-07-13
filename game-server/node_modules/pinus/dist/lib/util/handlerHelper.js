@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function bindHandlerMethod(method, thisArg) {
+    return method.bind(thisArg);
+}
+exports.bindHandlerMethod = bindHandlerMethod;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGFuZGxlckhlbHBlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2xpYi91dGlsL2hhbmRsZXJIZWxwZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFQSxTQUFnQixpQkFBaUIsQ0FBZSxNQUFxRSxFQUFFLE9BQVU7SUFDN0gsT0FBTyxNQUFNLENBQUMsSUFBSSxDQUFDLE9BQU8sQ0FBUSxDQUFDO0FBQ3ZDLENBQUM7QUFGRCw4Q0FFQyJ9

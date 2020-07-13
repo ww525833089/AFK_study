@@ -1,0 +1,434 @@
+[2020-06-09T10:29:44.359] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-09T10:29:44.369] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-09T10:29:44.751] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:01:55.165] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-09T11:01:55.189] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-09T11:01:55.583] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:01:55.585] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:03:00.899] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-09T11:03:00.932] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-09T11:03:01.322] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:03:01.334] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:04:44.956] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-09T11:04:44.966] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591671884930 client "client"
+[2020-06-09T11:04:44.968] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-09T11:08:33.156] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-09T11:08:33.188] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-09T11:08:33.587] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:08:33.591] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:09:18.415] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-2 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":10432}
+[2020-06-09T11:09:23.435] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-1 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11084}
+[2020-06-09T11:09:57.027] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-09T11:09:57.051] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-09T11:09:57.434] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:09:57.435] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:10:19.733] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-09T11:10:19.743] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591672219707 client "client"
+[2020-06-09T11:10:19.743] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-09T11:14:00.440] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-09T11:14:00.699] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-09T11:14:00.882] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:14:01.113] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-09T11:14:01.175] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-09T11:14:12.225] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-09T11:14:12.236] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591672452196 client "client"
+[2020-06-09T11:14:12.237] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-09T11:34:48.013] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect gate-server-1 gate {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":4000,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":[],"pid":10544}
+[2020-06-09T11:34:53.028] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-2 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app.js","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":7924}
+[2020-06-09T11:34:58.045] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-1 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":9748}
+[2020-06-10T11:14:16.375] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T11:14:16.410] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T11:14:16.806] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T11:14:16.835] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T11:14:16.884] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T11:14:28.689] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T11:14:28.701] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591758868663 client "client"
+[2020-06-10T11:14:28.703] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T12:07:03.469] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T12:07:03.550] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591762023388 client "client"
+[2020-06-10T12:07:03.554] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T14:07:17.476] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T14:07:17.516] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T14:07:17.931] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T14:07:17.971] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T14:07:17.993] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T14:07:26.690] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T14:07:26.706] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591769246660 client "client"
+[2020-06-10T14:07:26.709] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T14:41:04.129] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T14:41:04.174] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T14:41:04.625] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T14:41:04.658] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T14:41:04.657] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T14:41:19.293] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T14:41:19.304] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591771279262 client "client"
+[2020-06-10T14:41:19.307] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T17:00:30.873] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:00:30.902] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:00:31.355] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:00:31.355] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:00:31.381] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:06:42.800] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T17:06:42.877] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591780002723 client "client"
+[2020-06-10T17:06:42.879] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T17:15:42.845] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:15:42.895] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:15:43.332] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:15:43.328] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:15:43.329] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:19:57.670] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:19:57.712] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:19:58.113] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:19:58.148] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:19:58.226] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:20:06.794] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T17:20:06.804] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591780806766 client "client"
+[2020-06-10T17:20:06.807] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T17:25:08.922] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:25:08.965] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:25:09.387] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:25:09.400] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:25:09.440] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:31:36.688] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:31:36.731] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:31:37.144] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:31:37.176] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:31:37.173] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:32:04.939] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T17:32:04.949] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591781524909 client "client"
+[2020-06-10T17:32:04.952] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T17:34:28.205] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:34:28.243] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:34:28.639] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:34:28.673] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:34:28.685] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:34:33.698] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T17:34:33.709] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591781673667 client "client"
+[2020-06-10T17:34:33.711] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T17:39:40.518] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:39:40.562] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:39:40.989] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:39:40.996] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:39:41.014] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:45:06.563] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:45:06.609] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:45:07.036] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:45:07.065] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:45:07.102] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:50:23.987] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:50:24.025] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:50:24.466] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:50:24.494] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:50:24.531] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T17:59:34.850] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T17:59:34.893] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T17:59:35.317] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:59:35.352] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T17:59:35.424] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:05:19.829] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T18:05:19.877] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T18:05:20.314] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:05:20.320] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:05:20.403] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:06:26.957] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T18:06:26.997] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T18:06:27.415] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:06:27.459] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:06:27.524] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:07:45.947] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T18:07:45.986] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T18:07:46.451] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:07:46.438] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:07:46.498] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:08:30.911] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-10T18:08:30.923] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591783710879 client "client"
+[2020-06-10T18:08:30.925] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-10T18:12:32.996] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T18:12:33.036] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T18:12:33.479] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:12:33.483] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:12:33.523] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:16:34.425] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T18:16:34.461] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T18:16:34.903] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:16:34.923] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:16:34.965] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:20:45.567] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T18:20:45.604] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T18:20:46.036] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:20:46.028] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:20:46.119] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:21:37.437] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T18:21:37.477] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T18:21:37.897] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:21:37.907] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:21:37.980] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:22:40.279] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-10T18:22:40.319] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-10T18:22:40.737] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:22:40.803] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-10T18:22:40.847] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-10T18:32:12.456] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect gate-server-1 gate {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":12908}
+[2020-06-10T18:32:12.474] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-2 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":12816}
+[2020-06-10T18:32:12.479] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-1 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":6808}
+[2020-06-11T10:07:14.001] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T10:07:14.035] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T10:07:14.450] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T10:07:14.465] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T10:07:14.492] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T10:07:24.819] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-11T10:07:24.829] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591841244789 client "client"
+[2020-06-11T10:07:24.831] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-11T10:11:07.371] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T10:11:07.409] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T10:11:07.818] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T10:11:07.850] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T10:11:07.898] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T10:15:15.074] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T10:15:15.112] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T10:15:15.541] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T10:15:15.542] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T10:15:15.602] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T10:16:02.667] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T10:16:02.704] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T10:16:03.101] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T10:16:03.166] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T10:16:03.212] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T10:21:15.662] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect gate-server-1 gate {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":10660}
+[2020-06-11T10:21:20.679] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-2 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":10272}
+[2020-06-11T10:21:25.702] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-1 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":6276}
+[2020-06-11T11:19:21.661] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T11:19:21.716] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T11:19:22.159] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T11:19:22.190] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T11:19:22.247] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T11:19:22.318] [ERROR] pinus-admin - [chat-server-1 monitorAgent.js] server "chat-server-1" "chat" register master failed:{"code":-1,"msg":"server auth failed,check config `adminServer`."}Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\monitor\monitorAgent.ts:88:24)
+    at MqttClient.emit (events.js:310:20)
+    at Connection.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:104:18)
+    at Connection.emit (events.js:310:20)
+    at Connection.emitPacket (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (events.js:310:20)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (events.js:310:20)
+    at emitReadable_ (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+[2020-06-11T11:19:22.319] [ERROR] pinus-admin - [chat-server-1 mqttClient.js] mqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at Connection.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:123:20)
+    at Connection.emit (events.js:310:20)
+    at Connection.emitPacket (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (events.js:310:20)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (events.js:310:20)
+    at emitReadable_ (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at DestroyableTransform.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[2020-06-11T11:19:22.342] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T11:19:23.321] [INFO] pinus-admin - [chat-server-1 mqttClient.js] reconnect delay 1 s
+[2020-06-11T11:19:23.339] [DEBUG] pinus-admin - [master-server-1 MasterSocket] repush qos message {"7":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11528},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11548},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":11564},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}}}
+[2020-06-11T11:19:23.385] [WARN] pinus-admin - [master-server-1 MasterSocket] unknown resp id:7
+[2020-06-11T11:20:23.621] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-11T11:20:23.631] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591845623594 client "client"
+[2020-06-11T11:20:23.634] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-11T12:28:26.090] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T12:28:26.149] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T12:28:26.653] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T12:28:26.655] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T12:28:26.716] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T12:28:26.779] [ERROR] pinus-admin - [chat-server-1 monitorAgent.js] server "chat-server-1" "chat" register master failed:{"code":-1,"msg":"server auth failed,check config `adminServer`."}Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\monitor\monitorAgent.ts:88:24)
+    at MqttClient.emit (events.js:310:20)
+    at Connection.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:104:18)
+    at Connection.emit (events.js:310:20)
+    at Connection.emitPacket (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (events.js:310:20)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (events.js:310:20)
+    at emitReadable_ (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+[2020-06-11T12:28:26.779] [ERROR] pinus-admin - [chat-server-1 mqttClient.js] mqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at Connection.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:123:20)
+    at Connection.emit (events.js:310:20)
+    at Connection.emitPacket (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (events.js:310:20)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (events.js:310:20)
+    at emitReadable_ (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at DestroyableTransform.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[2020-06-11T12:28:26.777] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T12:28:27.780] [INFO] pinus-admin - [chat-server-1 mqttClient.js] reconnect delay 1 s
+[2020-06-11T12:28:27.797] [DEBUG] pinus-admin - [master-server-1 MasterSocket] repush qos message {"6":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":12248},"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":7908},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":12188},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}}}
+[2020-06-11T12:28:27.885] [WARN] pinus-admin - [master-server-1 MasterSocket] unknown resp id:6
+[2020-06-11T12:28:35.483] [INFO] pinus-admin - [master-server-1 masterAgent.js] client user : admin login to master
+[2020-06-11T12:28:35.496] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect pinus_list_1591849715455 client "client"
+[2020-06-11T12:28:35.498] [INFO] pinus-admin - [master-server-1 MasterSocket] client user admin exit
+[2020-06-11T12:32:30.233] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T12:32:30.298] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T12:32:30.806] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T12:32:30.829] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T12:32:30.900] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T12:32:30.973] [ERROR] pinus-admin - [chat-server-1 monitorAgent.js] server "chat-server-1" "chat" register master failed:{"code":-1,"msg":"server auth failed,check config `adminServer`."}Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\monitor\monitorAgent.ts:88:24)
+    at MqttClient.emit (events.js:310:20)
+    at Connection.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:104:18)
+    at Connection.emit (events.js:310:20)
+    at Connection.emitPacket (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (events.js:310:20)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (events.js:310:20)
+    at emitReadable_ (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+[2020-06-11T12:32:30.974] [ERROR] pinus-admin - [chat-server-1 mqttClient.js] mqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at Connection.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:123:20)
+    at Connection.emit (events.js:310:20)
+    at Connection.emitPacket (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (events.js:310:20)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (events.js:310:20)
+    at emitReadable_ (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at DestroyableTransform.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[2020-06-11T12:32:30.962] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T12:32:31.975] [INFO] pinus-admin - [chat-server-1 mqttClient.js] reconnect delay 1 s
+[2020-06-11T12:32:31.980] [DEBUG] pinus-admin - [master-server-1 MasterSocket] repush qos message {"7":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11636},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":6276},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":9184},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}}}
+[2020-06-11T12:32:32.022] [WARN] pinus-admin - [master-server-1 MasterSocket] unknown resp id:7
+[2020-06-11T12:34:33.019] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T12:34:33.079] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T12:34:33.639] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T12:34:33.633] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T12:34:33.644] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T12:34:33.745] [ERROR] pinus-admin - [chat-server-1 monitorAgent.js] server "chat-server-1" "chat" register master failed:{"code":-1,"msg":"server auth failed,check config `adminServer`."}Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\monitor\monitorAgent.ts:88:24)
+    at MqttClient.emit (events.js:310:20)
+    at Connection.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:104:18)
+    at Connection.emit (events.js:310:20)
+    at Connection.emitPacket (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (events.js:310:20)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (events.js:310:20)
+    at emitReadable_ (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+[2020-06-11T12:34:33.746] [ERROR] pinus-admin - [chat-server-1 mqttClient.js] mqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005Error: 
+    at Logger.pLogger.<computed> [as error] (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at Connection.<anonymous> (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:123:20)
+    at Connection.emit (events.js:310:20)
+    at Connection.emitPacket (D:\cocos_pro\AFK_study\game-server\node_modules\pinus-admin\node_modules\mqtt-connection\connection.js:10:8)
+    at Connection.emit (events.js:310:20)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at Connection.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+    at Connection.Duplexify._forward (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:170:26)
+    at DestroyableTransform.onreadable (D:\cocos_pro\AFK_study\game-server\node_modules\duplexify\index.js:134:10)
+    at DestroyableTransform.emit (events.js:310:20)
+    at emitReadable_ (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:504:10)
+    at emitReadable (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:498:62)
+    at addChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:298:29)
+    at readableAddChunk (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:278:11)
+    at DestroyableTransform.Readable.push (D:\cocos_pro\AFK_study\game-server\node_modules\readable-stream\lib\_stream_readable.js:245:10)
+[2020-06-11T12:34:33.733] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T12:34:34.747] [INFO] pinus-admin - [chat-server-1 mqttClient.js] reconnect delay 1 s
+[2020-06-11T12:34:34.756] [DEBUG] pinus-admin - [master-server-1 MasterSocket] repush qos message {"7":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11788},"connector-server-2":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11888},"gate-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":3152,"clientHost":"127.0.0.1","clientPort":3012,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":11628},"chat-server-1":{"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"args":"--inspect=10010","serverType":"chat","remoterPaths":[{"namespace":"sys","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"chat","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\chat\\handler"]}}}}}
+[2020-06-11T12:34:34.801] [WARN] pinus-admin - [master-server-1 MasterSocket] unknown resp id:7
+[2020-06-11T12:39:24.869] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T12:39:24.927] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T12:39:25.392] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T12:39:25.394] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T12:39:25.423] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T12:39:25.452] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T15:13:42.350] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T15:13:42.413] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T15:13:42.899] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:13:42.900] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T15:13:42.906] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:13:42.954] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T15:19:35.321] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T15:19:35.380] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T15:19:35.886] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:19:35.885] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:19:35.914] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T15:19:35.969] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T15:22:01.236] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T15:22:01.293] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T15:22:01.765] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:22:01.775] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:22:01.846] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T15:22:01.878] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T15:24:08.825] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T15:24:08.885] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T15:24:09.365] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:24:09.369] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:24:09.454] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T15:24:09.482] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T15:26:50.667] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T15:26:50.725] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T15:26:51.223] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:26:51.230] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:26:51.285] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T15:26:51.292] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T15:28:17.135] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T15:28:17.199] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T15:28:17.714] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T15:28:17.734] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T15:28:17.756] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-11T15:28:17.761] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T16:10:09.021] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T16:10:09.094] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T16:10:09.667] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T16:10:09.675] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T16:10:09.675] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T16:10:09.765] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-1 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":7612}
+[2020-06-11T16:10:09.769] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-2 connector {"main":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":3151,"clientHost":"127.0.0.1","clientPort":3011,"frontend":"true","args":" --inspect=10002","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\cocos_pro\\AFK_study\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":11292}
+[2020-06-11T16:11:06.089] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T16:11:06.143] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T16:12:13.347] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-11T16:12:13.408] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-11T16:12:13.891] [INFO] pinus-admin - [connector-server-2 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T16:12:13.890] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-11T16:12:13.935] [INFO] pinus-admin - [chat-server-1 consoleService.js] try to connect master: "chat", "127.0.0.1", 3005
+[2020-06-11T16:12:13.946] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005

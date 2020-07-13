@@ -1,0 +1,57 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const pinus_protocol_1 = require("pinus-protocol");
+const pinus_logger_1 = require("pinus-logger");
+const path = require("path");
+let logger = pinus_logger_1.getLogger('pinus', path.basename(__filename));
+let handlers = {};
+let ST_INITED = 0;
+let ST_WAIT_ACK = 1;
+let ST_WORKING = 2;
+let ST_CLOSED = 3;
+let handleHandshake = function (socket, pkg) {
+    if (socket.state !== ST_INITED) {
+        return;
+    }
+    try {
+        socket.emit('handshake', JSON.parse(pinus_protocol_1.Protocol.strdecode(pkg.body)));
+    }
+    catch (ex) {
+        socket.emit('handshake', {});
+    }
+};
+let handleHandshakeAck = function (socket, pkg) {
+    if (socket.state !== ST_WAIT_ACK) {
+        return;
+    }
+    socket.state = ST_WORKING;
+    socket.emit('heartbeat');
+};
+let handleHeartbeat = function (socket, pkg) {
+    if (socket.state !== ST_WORKING) {
+        return;
+    }
+    socket.emit('heartbeat');
+};
+let handleData = function (socket, pkg) {
+    if (socket.state !== ST_WORKING) {
+        return;
+    }
+    socket.emit('message', pkg);
+};
+handlers[pinus_protocol_1.Package.TYPE_HANDSHAKE] = handleHandshake;
+handlers[pinus_protocol_1.Package.TYPE_HANDSHAKE_ACK] = handleHandshakeAck;
+handlers[pinus_protocol_1.Package.TYPE_HEARTBEAT] = handleHeartbeat;
+handlers[pinus_protocol_1.Package.TYPE_DATA] = handleData;
+function default_1(socket, pkg) {
+    let handler = handlers[pkg.type];
+    if (!!handler) {
+        handler(socket, pkg);
+    }
+    else {
+        logger.error('could not find handle invalid data package.');
+        socket.disconnect();
+    }
+}
+exports.default = default_1;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGFuZGxlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2xpYi9jb25uZWN0b3JzL2NvbW1vbi9oYW5kbGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsbURBQW9EO0FBQ3BELCtDQUF5QztBQUV6Qyw2QkFBNkI7QUFDN0IsSUFBSSxNQUFNLEdBQUcsd0JBQVMsQ0FBQyxPQUFPLEVBQUUsSUFBSSxDQUFDLFFBQVEsQ0FBQyxVQUFVLENBQUMsQ0FBQyxDQUFDO0FBRzNELElBQUksUUFBUSxHQUFrRSxFQUFFLENBQUM7QUFFakYsSUFBSSxTQUFTLEdBQUcsQ0FBQyxDQUFDO0FBQ2xCLElBQUksV0FBVyxHQUFHLENBQUMsQ0FBQztBQUNwQixJQUFJLFVBQVUsR0FBRyxDQUFDLENBQUM7QUFDbkIsSUFBSSxTQUFTLEdBQUcsQ0FBQyxDQUFDO0FBRWxCLElBQUksZUFBZSxHQUFHLFVBQVUsTUFBZSxFQUFHLEdBQVE7SUFDdEQsSUFBSSxNQUFNLENBQUMsS0FBSyxLQUFLLFNBQVMsRUFBRTtRQUM1QixPQUFPO0tBQ1Y7SUFDRCxJQUFJO1FBQ0EsTUFBTSxDQUFDLElBQUksQ0FBQyxXQUFXLEVBQUUsSUFBSSxDQUFDLEtBQUssQ0FBQyx5QkFBUSxDQUFDLFNBQVMsQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLENBQUMsQ0FBQyxDQUFDO0tBQ3RFO0lBQUMsT0FBTyxFQUFFLEVBQUU7UUFDVCxNQUFNLENBQUMsSUFBSSxDQUFDLFdBQVcsRUFBRSxFQUFFLENBQUMsQ0FBQztLQUNoQztBQUNMLENBQUMsQ0FBQztBQUVGLElBQUksa0JBQWtCLEdBQUcsVUFBVSxNQUFlLEVBQUcsR0FBUTtJQUN6RCxJQUFJLE1BQU0sQ0FBQyxLQUFLLEtBQUssV0FBVyxFQUFFO1FBQzlCLE9BQU87S0FDVjtJQUNELE1BQU0sQ0FBQyxLQUFLLEdBQUcsVUFBVSxDQUFDO0lBQzFCLE1BQU0sQ0FBQyxJQUFJLENBQUMsV0FBVyxDQUFDLENBQUM7QUFDN0IsQ0FBQyxDQUFDO0FBRUYsSUFBSSxlQUFlLEdBQUcsVUFBVSxNQUFlLEVBQUcsR0FBUTtJQUN0RCxJQUFJLE1BQU0sQ0FBQyxLQUFLLEtBQUssVUFBVSxFQUFFO1FBQzdCLE9BQU87S0FDVjtJQUNELE1BQU0sQ0FBQyxJQUFJLENBQUMsV0FBVyxDQUFDLENBQUM7QUFDN0IsQ0FBQyxDQUFDO0FBRUYsSUFBSSxVQUFVLEdBQUcsVUFBVSxNQUFlLEVBQUcsR0FBUTtJQUNqRCxJQUFJLE1BQU0sQ0FBQyxLQUFLLEtBQUssVUFBVSxFQUFFO1FBQzdCLE9BQU87S0FDVjtJQUNELE1BQU0sQ0FBQyxJQUFJLENBQUMsU0FBUyxFQUFFLEdBQUcsQ0FBQyxDQUFDO0FBQ2hDLENBQUMsQ0FBQztBQUVGLFFBQVEsQ0FBQyx3QkFBTyxDQUFDLGNBQWMsQ0FBQyxHQUFHLGVBQWUsQ0FBQztBQUNuRCxRQUFRLENBQUMsd0JBQU8sQ0FBQyxrQkFBa0IsQ0FBQyxHQUFHLGtCQUFrQixDQUFDO0FBQzFELFFBQVEsQ0FBQyx3QkFBTyxDQUFDLGNBQWMsQ0FBQyxHQUFHLGVBQWUsQ0FBQztBQUNuRCxRQUFRLENBQUMsd0JBQU8sQ0FBQyxTQUFTLENBQUMsR0FBRyxVQUFVLENBQUM7QUFFekMsbUJBQXlCLE1BQWUsRUFBRSxHQUFRO0lBQzlDLElBQUksT0FBTyxHQUFHLFFBQVEsQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLENBQUM7SUFDakMsSUFBSSxDQUFDLENBQUMsT0FBTyxFQUFFO1FBQ1gsT0FBTyxDQUFDLE1BQU0sRUFBRSxHQUFHLENBQUMsQ0FBQztLQUN4QjtTQUFNO1FBQ0gsTUFBTSxDQUFDLEtBQUssQ0FBQyw2Q0FBNkMsQ0FBQyxDQUFDO1FBQzVELE1BQU0sQ0FBQyxVQUFVLEVBQUUsQ0FBQztLQUN2QjtBQUNMLENBQUM7QUFSRCw0QkFRQyJ9

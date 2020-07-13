@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "390d4af3-7bd0-48fc-9ff1-0465f8ed4c86",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 150,
+  "height": 150,
+  "platformSettings": {},
+  "subMetas": {
+    "ic_木乃伊变色": {
+      "ver": "1.0.4",
+      "uuid": "a939cd77-218d-46ea-a0c7-f6c6dc8d37d9",
+      "rawTextureUuid": "390d4af3-7bd0-48fc-9ff1-0465f8ed4c86",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 5,
+      "trimX": 30,
+      "trimY": 23,
+      "width": 92,
+      "height": 94,
+      "rawWidth": 150,
+      "rawHeight": 150,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "hit",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.16666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "fx": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "e2aebec8-de87-483c-90e0-1e399efbb7ac"
+                }
+              },
+              {
+                "frame": 0.016666666666666666,
+                "value": {
+                  "__uuid__": "e8b00b0c-f26b-4430-b549-f077070c4c45"
+                }
+              },
+              {
+                "frame": 0.03333333333333333,
+                "value": {
+                  "__uuid__": "b1b32f11-cc6d-4a72-8815-1ebfa59a259e"
+                }
+              },
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "310c02e7-9c6a-45b0-9808-e56612aa38e6"
+                }
+              },
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__uuid__": "3a5d8740-58f2-4880-898e-9b4ebcf6ff1d"
+                }
+              },
+              {
+                "frame": 0.08333333333333333,
+                "value": {
+                  "__uuid__": "10256aec-1b34-4f94-b5f1-ea7a6bd63ae9"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "damage": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0.03333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 0.1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ],
+          "y": [
+            {
+              "frame": 0.03333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 200
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.16666666666666666,
+      "func": "selfDestory",
+      "params": []
+    }
+  ]
+}

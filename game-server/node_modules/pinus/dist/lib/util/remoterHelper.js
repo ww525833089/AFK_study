@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function bindRemoterMethod(method, thisArg, routeParamType) {
+    return method.bind(thisArg);
+}
+exports.bindRemoterMethod = bindRemoterMethod;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVtb3RlckhlbHBlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2xpYi91dGlsL3JlbW90ZXJIZWxwZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFpREEsU0FBZ0IsaUJBQWlCLENBQThDLE1BQVMsRUFBRSxPQUFVLEVBQUUsY0FBOEM7SUFDaEosT0FBTyxNQUFNLENBQUMsSUFBSSxDQUFDLE9BQU8sQ0FBUSxDQUFDO0FBQ3ZDLENBQUM7QUFGRCw4Q0FFQyJ9
